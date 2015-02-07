@@ -50,7 +50,7 @@
             "Test::Class" : "0.48",
             "Test::Most" : "0.34",
             "YAML" : "1.14",
-            "perl" : "5.20"
+            "perl" : "5.020000"
          }
       }
    },
@@ -67,5 +67,5 @@
          "url" : "https://github.com/fibo/Perl-Box-pm"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

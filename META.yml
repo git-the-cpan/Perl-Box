@@ -22,15 +22,22 @@ no_index:
     - inc
 requires:
   App::FatPacker: '0.010002'
+  App::cloc: '0.01'
   Catalyst::Devel: '1.39'
+  Catalyst::Runtime: '5.90083'
   DBI: '1.633'
   DBIx::Class: '0.082810'
   Dancer: '1.3132'
   DateTime: '1.18'
+  Digest::MD5: '2.54'
   Dist::Zilla: '5.031'
-  Mojolicious: '5.77'
+  LWP: '6.13'
+  List::MoreUtils: '0.405'
+  List::Util: '1.41'
+  Mojolicious: '5.81'
   Moo: '1.007000'
   Moose: '2.1403'
+  Regexp::Common: '2013031301'
   Task::BeLike::FIBO: '0.14'
   Template: '2.26'
   Test::Class: '0.48'
@@ -42,4 +49,4 @@ resources:
   homepage: https://metacpan.org/pod/Perl::Box
   license: http://g14n.info/artistic-license
   repository: https://github.com/fibo/Perl-Box-pm
-version: '0.02'
+version: '0.03'

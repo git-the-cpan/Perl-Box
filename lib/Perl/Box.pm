@@ -1,6 +1,6 @@
 package Perl::Box;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 1;
 
@@ -20,20 +20,20 @@ Perl::Box - is a ready to use Codio box. Start coding now!
 
 Go to L<Codio|https://codio.com/>. Create a project. Choose Perl5 stack. Start coding!
 
-=head1 MOTIVATION
-
-I really got addicted with L<Codio|https://codio.com/>.
-During L<2015 CPAN Pull Request Challenge|http://blogs.perl.org/users/neilb/2014/12/take-the-2015-cpan-pull-request-challenge.html>, I recieved one distribution assignment every month by L<Niel Bowers|http://neilb.org/>.
-Compiling latest Perl and distributions like L<Moose> and L<Dist::Zilla> with all dependencies takes time.
-There were no Perl based Codio stack.
-
-So, since C<2+2=4>, I wanted a ready to use Perl Box to start coding immediately.
-
 =head1 DESCRIPTION
 
 L<Perl::Box> is a Task, a.k.a. Bundle distribution containing most used CPAN stuff needed for coding.
 L<Perl-Box|https://codio.com/fibo/Perl-Box> is a Codio box.
 They are used to create a Codio stack that you can use to start coding Perl immediately.
+
+=head1 MOTIVATION
+
+I really got addicted with L<Codio|https://codio.com/>.
+During L<2015 CPAN Pull Request Challenge|http://blogs.perl.org/users/neilb/2014/12/take-the-2015-cpan-pull-request-challenge.html>, L<Niel Bowers|http://neilb.org/> assigned me a task on a distribution, so I had to prepare a shared development environment to work on L<Bot::Training>.
+Compiling latest Perl and distributions like L<Moose> and L<Dist::Zilla> with all its dependencies takes time.
+There were no Perl based Codio stack.
+
+So, since C<2+2=4>, I wanted a ready to use Perl Box to start coding immediately.
 
 =head1 STUFF INCLUDED
 
@@ -45,105 +45,113 @@ Note that versions reported are those in the Perl Box actually.
 
 =item *
 
-L<Task::BeLike::FIBO> C<v0.14>
+L<Task::BeLike::FIBO>
 
 Yes, 'cause I'm my first (and only!? :) user. Read here L<what is included|https://metacpan.org/pod/Task::BeLike::FIBO#STUFF-INCLUDED>.
 
 =item *
 
-L<Catalyst::Devel> C<v1.39>
+L<Catalyst::Devel>
 
 =item *
 
-L<Catalyst::Runtime> C<v5.90083>
+L<Catalyst::Runtime>
 
 =item *
 
-L<Mojolicious> C<v5.81>
+L<Mojolicious>
 
 I really like it! It is my favourite web framework.
 
-L<Dancer> C<v1.3132>
+L<Dancer>
 
 Par condicio
 
 =item *
 
-L<Moose> C<v2.1403>
+L<Moose>
 
 Long live the Meta programming protocol!
 
 =item *
 
-L<Moo> C<v1.007000>
+L<Moo>
 
 Cause it completes L<Moose> when performance overhead is a problem.
 
 =item *
 
-L<Dist::Zilla> C<v5.031>
+L<Dist::Zilla>
 
 It is used by a lot of Perl coders.
 
 =item *
 
-L<App::cloc> C<v0.01>
+L<App::cloc>
 
 I packaged the famous L<CLOC|http://cloc.sourceforge.net/> tool. It is worth to add it in every development environment.
 
 =item *
 
-L<DBI> C<v1.633>
+L<DBI>
 
 =item *
 
-L<DBIx::Class> C<v0.082810>
+L<DBIx::Class>
 
 =item *
 
-L<DateTime> C<1.18>
+L<DateTime>
 
 =item *
 
-L<Template> C<2.26>
+L<App::FatPacker>
 
 =item *
 
-L<Test::Class> C<0.48>
+L<Digest::MD5>
 
 =item *
 
-L<Test::Most> C<0.34>
-
-=item *
-
-L<YAML> C<v1.14>
-
-=item *
-
-L<App::FatPacker> C<v0.010002>
-
-=item *
-
-L<Digest::MD5> C<v2.54>
-
-=item *
-
-L<Regexp::Common> C<2013031301>
-
-=item *
-
-L<LWP> C<v6.13>
+L<LWP>
 
 One of the must have distros.
 
 =item *
 
-L<List::Util> C<v1.41>
+L<List::Util>
 
 =item *
 
-L<List::MoreUtils> C<v0.405>
+L<List::MoreUtils>
+
+=item *
+
+L<Regexp::Common>
+
+=item *
+
+L<Template>
+
+=item *
+
+L<Test::Class>
+
+Write reusable tests, follow this best practice.
+
+=item *
+
+L<Test::Exception>
+
+=item *
+
+L<Test::Most>
+
+=item *
+
+L<YAML>
+
+A tribute to the mythic Ingy.
 
 =back
 
